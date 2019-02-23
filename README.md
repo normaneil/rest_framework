@@ -15,7 +15,8 @@ pipenv install
 Pipfile.lock should be generated
 
 cd demo
-
+python manage.py makemigrations
+python manage.py migrate
 python manage.py runserver
 
 ```
